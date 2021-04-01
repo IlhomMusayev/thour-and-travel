@@ -311,6 +311,38 @@ footer{
 .social-item:nth-of-type(2){
     width: 3%;
 }
+#mini-menu-list{
+    transition: 0.3s;
+    display: none;
+}
+/* qoshimcha */
+#mini-menu-list .menu-lists{
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+.menu-item{
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+}
+#close-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* *******************************************MEDIA QUERY************************************ */

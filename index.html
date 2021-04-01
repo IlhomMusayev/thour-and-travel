@@ -52,9 +52,49 @@
                 </li>
 
                 <div class="mini-menu">
-                    <button>
-                        <img src="img/icons8-menu.svg" alt="mini-menu-icon">
+                    <button onclick="minimenu()">
+                        <img id="menu-icon" src="img/icons8-menu.svg" alt="mini-menu-icon">
+                        <img id="close-icon" src="img/icons8-macos-close-32.png" alt="">
                     </button>
+                </div>
+                <div id="mini-menu-list">
+                    <ul class="menu-lists">
+                        <li class="menu-item">
+                            <a href="" class="list-link active">
+                                Home
+                            </a>
+                        </li>
+        
+                        <li class="menu-item">
+                            <a href="" class="list-link">
+                                Destinations
+                            </a>
+                        </li>
+        
+                        <li class="menu-item">
+                            <a href="" class="list-link">
+                                About
+                            </a>
+                        </li>
+        
+                        <li class="menu-item">
+                            <a href="" class="list-link">
+                                Partner
+                            </a>
+                        </li>
+        
+                        <li class="menu-item login">
+                            <a href="" class="list-link">
+                                Login
+                            </a>
+                        </li>
+        
+                        <li class="menu-item register">
+                            <a href="" class="list-link">
+                                Register
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </ul>
         </div>
@@ -377,6 +417,7 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
     <script>
         AOS.init();
       </script>
